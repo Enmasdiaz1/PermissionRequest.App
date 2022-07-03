@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using PermissionRequest.App.PermissionRequest.Domain.Models;
+using PermissionRequest.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +18,8 @@ namespace PermissionRequest.Infraestructure.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            new PermissionsMap(modelBuilder.Entity<PermissionsModel>());
+            new PermissionsTypeMap(modelBuilder.Entity<PermissionsTypeModel>());
         }
     }
 }
