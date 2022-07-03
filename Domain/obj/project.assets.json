@@ -5803,9 +5803,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\esantos\\Documents\\PermissionRequest.App\\Domain\\PermissionRequest.Domain.csproj",
-      "projectName": "PermissionRequest.Domain",
-      "projectPath": "C:\\Users\\esantos\\Documents\\PermissionRequest.App\\Domain\\PermissionRequest.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\esantos\\Documents\\PermissionRequest.App\\Domain\\Domain.csproj",
+      "projectName": "Domain",
+      "projectPath": "C:\\Users\\esantos\\Documents\\PermissionRequest.App\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\esantos\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\esantos\\Documents\\PermissionRequest.App\\Domain\\obj\\",
       "projectStyle": "PackageReference",
@@ -5872,7 +5872,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
