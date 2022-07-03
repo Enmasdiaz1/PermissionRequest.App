@@ -12,9 +12,7 @@
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Id)
-            </th>
+           
             <th>
                 @Html.DisplayNameFor(model => model.NombreEmpleado)
             </th>
@@ -33,9 +31,7 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Id)
-            </td>
+            
             <td>
                 @Html.DisplayFor(modelItem => item.NombreEmpleado)
             </td>
@@ -43,7 +39,20 @@
                 @Html.DisplayFor(modelItem => item.ApellidoEmpleado)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TipoPermiso)
+                    @if (item.TipoPermiso==1)
+                    {
+                        <text>Enfermedad</text>
+                    }
+                    @if (item.TipoPermiso==2)
+                    {
+                        <text>Diligencias</text>
+                        
+                    }
+                    @if (item.TipoPermiso==3)
+                    {
+                        <text>Otros</text>
+                        
+                    }
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.FechaPermiso)

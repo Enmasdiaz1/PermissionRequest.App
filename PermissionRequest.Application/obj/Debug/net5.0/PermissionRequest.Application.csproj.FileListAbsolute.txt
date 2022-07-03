@@ -12,6 +12,6 @@ C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Application\o
 C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Application\obj\Debug\net5.0\PermissionRequest.Application.csproj.CoreCompileInputs.cache
 C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Application\obj\Debug\net5.0\PermissionRequest.Application.csproj.CopyComplete
 C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Application\obj\Debug\net5.0\PermissionRequest.Application.dll
-C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Application\obj\Debug\net5.0\refint\PermissionRequest.Application.dll
 C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Application\obj\Debug\net5.0\PermissionRequest.Application.pdb
 C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Application\obj\Debug\net5.0\ref\PermissionRequest.Application.dll
+C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Application\obj\Debug\net5.0\refint\PermissionRequest.Application.dll
