@@ -33,7 +33,7 @@ namespace PermissionRequest.Infraestructure.Repositories
             _sqlContext.SaveChanges();
         }
 
-        public T Get(int id)
+        public T Get(int? id)
         {
             return Permissions.SingleOrDefault(x => x.Id == id);
         }

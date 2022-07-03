@@ -18,7 +18,7 @@ namespace PermissionRequest.Application.Services.Services
             this.permissionsTypeRepository = permissionsTypeRepository;
         }
 
-        public PermissionsTypeModel GetPermissions(int id)
+        public PermissionsTypeModel GetPermissions(int? id)
         {
             return permissionsTypeRepository.Get(id);
         }

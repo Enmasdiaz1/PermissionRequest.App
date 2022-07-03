@@ -18,7 +18,7 @@ namespace PermissionRequest.Domain
             entityTypeBuilder.Property(x=> x.TipoPermiso).IsRequired();
             entityTypeBuilder.Property(x=> x.FechaPermiso).IsRequired();
             entityTypeBuilder.HasOne(x => x.PermissionsType).WithOne(x => x.Permissions)
-                .HasForeignKey<PermissionsTypeModel>(x => x.Id);
+                .HasForeignKey<PermissionsModel>(x => x.TipoPermiso);
         }
     }
 }
