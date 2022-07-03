@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PermissionRequest.Domain", "Domain\PermissionRequest.Domain.csproj", "{11EB7400-C868-4EA6-AED3-F279C705E84F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PermissionRequest.Infraestructure", "PermissionRequest.Infraestructure\PermissionRequest.Infraestructure.csproj", "{F36A7F37-BA1C-458E-84D0-74490087AC07}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11EB7400-C868-4EA6-AED3-F279C705E84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11EB7400-C868-4EA6-AED3-F279C705E84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11EB7400-C868-4EA6-AED3-F279C705E84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11EB7400-C868-4EA6-AED3-F279C705E84F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36A7F37-BA1C-458E-84D0-74490087AC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36A7F37-BA1C-458E-84D0-74490087AC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36A7F37-BA1C-458E-84D0-74490087AC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36A7F37-BA1C-458E-84D0-74490087AC07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
