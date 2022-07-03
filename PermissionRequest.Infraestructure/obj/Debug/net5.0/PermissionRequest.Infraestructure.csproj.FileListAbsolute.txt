@@ -7,9 +7,9 @@ C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Infraestructu
 C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Infraestructure\obj\Debug\net5.0\PermissionRequest.Infraestructure.AssemblyInfo.cs
 C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Infraestructure\obj\Debug\net5.0\PermissionRequest.Infraestructure.csproj.CoreCompileInputs.cache
 C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Infraestructure\obj\Debug\net5.0\PermissionRequest.Infraestructure.dll
-C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Infraestructure\obj\Debug\net5.0\refint\PermissionRequest.Infraestructure.dll
 C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Infraestructure\obj\Debug\net5.0\PermissionRequest.Infraestructure.pdb
 C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Infraestructure\obj\Debug\net5.0\ref\PermissionRequest.Infraestructure.dll
 C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Infraestructure\bin\Debug\net5.0\PermissionRequest.Domain.dll
 C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Infraestructure\bin\Debug\net5.0\PermissionRequest.Domain.pdb
 C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Infraestructure\obj\Debug\net5.0\PermissionRequest.Infraestructure.csproj.CopyComplete
+C:\Users\esantos\Documents\PermissionRequest.App\PermissionRequest.Infraestructure\obj\Debug\net5.0\refint\PermissionRequest.Infraestructure.dll

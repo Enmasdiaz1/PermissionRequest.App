@@ -40,5 +40,39 @@ namespace PermissionRequest.Web.Controllers
             
             return View(model);
         }
+
+        [HttpGet]
+        public IActionResult AddPermission()
+        {
+            PermissionViewModel model = new PermissionViewModel();
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult AddPermission(PermissionViewModel model)
+        {
+            PermissionsModel permissionsModel = new PermissionsModel
+            {
+                NombreEmpleado = model.NombreEmpleado,
+                ApellidoEmpleado = model.ApellidoEmpleado,
+                TipoPermiso = model.TipoPermiso,
+                FechaPermiso = model.FechaPermiso,
+
+                PermissionsType = new PermissionsTypeModel
+                {
+                    Id=model.TipoPermiso
+                }
+                
+                
+
+            };
+            this.permissionsServices.InsertPermission(permissionsModel);
+            if (permissionsModel.Id>0)
+            {
+                return RedirectToAction("Index");
+            }
+
+            return View(model);
+        }
     }
 }

@@ -9,7 +9,7 @@ C:\Users\esantos\Documents\PermissionRequest.App\Domain\obj\Debug\net5.0\Permiss
 C:\Users\esantos\Documents\PermissionRequest.App\Domain\obj\Debug\net5.0\PermissionRequest.Domain.AssemblyInfo.cs
 C:\Users\esantos\Documents\PermissionRequest.App\Domain\obj\Debug\net5.0\PermissionRequest.Domain.csproj.CoreCompileInputs.cache
 C:\Users\esantos\Documents\PermissionRequest.App\Domain\obj\Debug\net5.0\PermissionRequest.Domain.dll
-C:\Users\esantos\Documents\PermissionRequest.App\Domain\obj\Debug\net5.0\refint\PermissionRequest.Domain.dll
 C:\Users\esantos\Documents\PermissionRequest.App\Domain\obj\Debug\net5.0\PermissionRequest.Domain.pdb
 C:\Users\esantos\Documents\PermissionRequest.App\Domain\obj\Debug\net5.0\PermissionRequest.Domain.genruntimeconfig.cache
 C:\Users\esantos\Documents\PermissionRequest.App\Domain\obj\Debug\net5.0\ref\PermissionRequest.Domain.dll
+C:\Users\esantos\Documents\PermissionRequest.App\Domain\obj\Debug\net5.0\refint\PermissionRequest.Domain.dll
