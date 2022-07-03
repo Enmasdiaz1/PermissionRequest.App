@@ -16,7 +16,7 @@ namespace PermissionRequest.Infraestructure.Repositories
         private DbSet<T> Permissions;
         public PermissionRepository(SqlContext sqlContext)
         {
-            _sqlContext = sqlContext;
+            this._sqlContext = sqlContext;
             Permissions = _sqlContext.Set<T>();
         }
 
