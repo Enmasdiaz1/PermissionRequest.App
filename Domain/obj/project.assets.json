@@ -5803,9 +5803,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\esantos\\Documents\\PermissionRequest.App\\Domain\\Domain.csproj",
-      "projectName": "Domain",
-      "projectPath": "C:\\Users\\esantos\\Documents\\PermissionRequest.App\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\esantos\\Documents\\PermissionRequest.App\\Domain\\PermissionRequest.Domain.csproj",
+      "projectName": "PermissionRequest.Domain",
+      "projectPath": "C:\\Users\\esantos\\Documents\\PermissionRequest.App\\Domain\\PermissionRequest.Domain.csproj",
       "packagesPath": "C:\\Users\\esantos\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\esantos\\Documents\\PermissionRequest.App\\Domain\\obj\\",
       "projectStyle": "PackageReference",

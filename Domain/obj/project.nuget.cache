@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DUh2zGXTr1vs1ulsBraYnH0JYryNa5cqzoT/el7701e1o1C0HYxtUCFNgDm9SBW8ML0VEZzTsT0+wjlyUFMyNg==",
+  "dgSpecHash": "tHoZUzZTS6XNQZWUgDUD5TcT5F5ZWlnw0RyiUjq0MYz5rtESAOhILpZq4B5o6ZUctaIiC6CbbCyPkkl3QuIE9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\esantos\\Documents\\PermissionRequest.App\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\esantos\\Documents\\PermissionRequest.App\\Domain\\PermissionRequest.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\esantos\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\esantos\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
