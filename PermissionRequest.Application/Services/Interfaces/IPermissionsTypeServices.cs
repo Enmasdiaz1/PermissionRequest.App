@@ -10,6 +10,6 @@ namespace PermissionRequest.Application.Services.Interfaces
 {
     public interface IPermissionsTypeServices
     {
-        PermissionsTypeModel GetPermissions(int id);
+        PermissionsTypeModel GetPermissions(int? id);
     }
 }

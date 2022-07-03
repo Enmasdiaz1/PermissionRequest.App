@@ -10,7 +10,7 @@ namespace PermissionRequest.Infraestructure.Repositories.Interfaces
     public interface IPermissionsRepository<T> where T : BaseClass
     {
         IEnumerable<T> GetAll(); 
-        T Get(int id);
+        T Get(int? id);
         void Delete(T permission);
         void Update(T permission);
         void Insert(T permission);

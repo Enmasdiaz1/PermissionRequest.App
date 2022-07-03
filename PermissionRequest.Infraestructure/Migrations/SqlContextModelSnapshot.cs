@@ -27,9 +27,6 @@ namespace PermissionRequest.Infraestructure.Migrations
                         .HasColumnName("Id")
                         .UseIdentityColumn();
 
-                    b.Property<DateTime>("AddedDate")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("ApellidoEmpleado")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
@@ -38,12 +35,6 @@ namespace PermissionRequest.Infraestructure.Migrations
                     b.Property<DateTime>("FechaPermiso")
                         .HasColumnType("datetime2")
                         .HasColumnName("FechaPermiso");
-
-                    b.Property<string>("IpAddress")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("ModifiedDate")
-                        .HasColumnType("datetime2");
 
                     b.Property<string>("NombreEmpleado")
                         .IsRequired()
@@ -57,48 +48,44 @@ namespace PermissionRequest.Infraestructure.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("TipoPermiso")
+                        .IsUnique();
+
                     b.ToTable("Permiso");
                 });
 
             modelBuilder.Entity("PermissionRequest.App.PermissionRequest.Domain.Models.PermissionsTypeModel", b =>
                 {
                     b.Property<int?>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .HasColumnName("Id");
-
-                    b.Property<DateTime>("AddedDate")
-                        .HasColumnType("datetime2");
+                        .HasColumnName("Id")
+                        .UseIdentityColumn();
 
                     b.Property<string>("Descripcion")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("Descripcion");
 
-                    b.Property<string>("IpAddress")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("ModifiedDate")
-                        .HasColumnType("datetime2");
-
                     b.HasKey("Id");
 
                     b.ToTable("TipoPermiso");
                 });
 
-            modelBuilder.Entity("PermissionRequest.App.PermissionRequest.Domain.Models.PermissionsTypeModel", b =>
+            modelBuilder.Entity("PermissionRequest.App.PermissionRequest.Domain.Models.PermissionsModel", b =>
                 {
-                    b.HasOne("PermissionRequest.App.PermissionRequest.Domain.Models.PermissionsModel", "Permissions")
-                        .WithOne("PermissionsType")
-                        .HasForeignKey("PermissionRequest.App.PermissionRequest.Domain.Models.PermissionsTypeModel", "Id")
+                    b.HasOne("PermissionRequest.App.PermissionRequest.Domain.Models.PermissionsTypeModel", "PermissionsType")
+                        .WithOne("Permissions")
+                        .HasForeignKey("PermissionRequest.App.PermissionRequest.Domain.Models.PermissionsModel", "TipoPermiso")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Permissions");
+                    b.Navigation("PermissionsType");
                 });
 
-            modelBuilder.Entity("PermissionRequest.App.PermissionRequest.Domain.Models.PermissionsModel", b =>
+            modelBuilder.Entity("PermissionRequest.App.PermissionRequest.Domain.Models.PermissionsTypeModel", b =>
                 {
-                    b.Navigation("PermissionsType");
+                    b.Navigation("Permissions");
                 });
 #pragma warning restore 612, 618
         }
